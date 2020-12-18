@@ -70,7 +70,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
-  transition: all 0.5s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .needle.hour {
@@ -120,6 +120,8 @@ body {
   font-size: 14px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
 }
 
 .date .circle {
